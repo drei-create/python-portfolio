@@ -29,7 +29,7 @@ class HashTable:
         return None
 
 table = HashTable()
-table.add("name", "Aldrei")
+table.add("name", "drei")
 table.add("role", "Computer Engineer")
 print(table.lookup("name"))
 print(table.lookup("role"))
