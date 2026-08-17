@@ -11,7 +11,7 @@ mechanics, built using object-oriented programming principles.
 
 ## Example
 ```python
-hero = GameCharacter('Fyna')
+hero = GameCharacter('knight')
 print(hero)
 hero.level_up()
 ```
