@@ -19,21 +19,10 @@ food.withdraw(200, "groceries")
 print(food)
 ```
 
-Output includes a formatted ledger and a spend chart like:
-Percentage spent by category
-100|
-90|
-80|
-70|
-60| o
-50| o
-40| o o
-30| o o o
-20| o o o
-10| o o o
-0| o o o
-----------
-F C A
-o l u
-o t
-d o
+Running the script prints a formatted ledger for each category followed
+by a bar chart showing what percentage of total spending came from each
+category.
+
+## What I'd add next
+- Input validation for negative deposit/withdrawal amounts
+- A way to export the ledger/chart to a file
