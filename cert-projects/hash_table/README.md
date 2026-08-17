@@ -13,8 +13,8 @@ of how key-value lookups work under the hood.
 ## Example
 ```python
 table = HashTable()
-table.add("name", "Aldrei")
-print(table.lookup("name"))  # Aldrei
+table.add("name", "drei")
+print(table.lookup("name"))  # drei
 ```
 
 ## What I'd add next
